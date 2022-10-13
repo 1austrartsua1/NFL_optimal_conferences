@@ -67,7 +67,7 @@ Total cost = -217.5248536
     -	Seattle
     -	LA
     -	Phoenix
-    
-## To Do
 
+## To Do
+- Highlight which Cities have been moved
 - Implement function to compute the cost of an arbitrary assignment so we can compare cost of current assignment
