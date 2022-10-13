@@ -1,6 +1,6 @@
-# Optimal NFL Conference Assignment 
+# Optimal NFL Division Assignment 
 
-This code determines the *optimal* conference assignment for the AFC and NFC separately based on their lattitude and longitude. It minimizes the following cost: for teams in the North, cost is negative lattitude, teams in the East, cost is negative longitude, for teams in the south, cost is lattitude, and for teams in the west, cost is longitude. 
+This code determines the *optimal* division assignment for the AFC and NFC separately based on their lattitude and longitude. It minimizes the following cost: for teams in the North, cost is negative lattitude, teams in the East, cost is negative longitude, for teams in the south, cost is lattitude, and for teams in the west, cost is longitude. 
 
 The assignment problem is sovled with google's OR-tools. 
 
