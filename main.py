@@ -94,7 +94,12 @@ if __name__ == '__main__':
     with open('lat_longAFC.pickle','rb') as file:
         lat_long = pickle.load(file)
 
-    costs = costify(lat_long)
-    team_names = get_team_names(lat_long)
     print('AFC solutions:')
-    solveAssignment(costs,team_names)
+    solveAssignment(costify(lat_long),get_team_names(lat_long))
+    print('\n\n\n')
+    with open('lat_longNFC.pickle','rb') as file:
+        lat_long = pickle.load(file)
+
+
+    print('NFC solutions:')
+    solveAssignment(costify(lat_long),get_team_names(lat_long))

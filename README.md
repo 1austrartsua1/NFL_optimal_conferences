@@ -18,3 +18,56 @@ pip install geopy
 - ```get_lat_long.py``` uses ```geopy``` package to get lat and long data for each city
 - ```lat_longNFC.pickle``` and ```lat_longAFC.pickle``` cached lat/long data so you don't need to run ```get_lat_long.py``` again
 - ```main.py``` run this to solve the assignment problem 
+
+## Results 
+AFC solutions:
+Total cost = -172.90477270000002
+
+- North:
+    -	Indianapolis
+    -	Buffalo
+    -	Cincinnati
+    -	Cleveland
+- East:
+    -	New York
+    -	Baltimore
+    - 	Pittsburgh
+    -	Boston
+- South:
+    -    Miami
+    -	Tennessee
+    -	Jacksonville
+    -	Houston
+- West:
+    -	Denver
+    -	LA
+    -	Kansas City
+    -	Las Vegas
+
+NFC solutions:
+Total cost = -217.5248536
+
+- North:
+    -	Detroit
+    -	Green Bay WI
+    -	minneapolis
+    -	Chicago
+- East:
+    -	New York
+    -	Philadelphia
+    -	Washington DC
+    -	Charlotte NC
+- South:
+    -	Dallas
+    -	Tampa Bay
+    -	Atlanta
+    -	New Orleans
+- West:
+    -	San Francisco
+    -	Seattle
+    -	LA
+    -	Phoenix
+    
+## To Do
+
+- Implement function to compute the cost of an arbitrary assignment so we can compare cost of current assignment
