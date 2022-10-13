@@ -42,6 +42,7 @@ def get_team_names(lat_long):
     return team_names
 
 def solveAssignment(costs,team_names):
+    # code taken from https://developers.google.com/optimization/assignment/assignment_example
     # Create the mip solver with the SCIP backend.
     solver = pywraplp.Solver.CreateSolver('SCIP')
 
