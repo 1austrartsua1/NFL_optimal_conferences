@@ -5,7 +5,7 @@ This code determines the *optimal* division assignment for the AFC and NFC separ
 The assignment problem is sovled with google's OR-tools. 
 
 ## Installation
-Recommend creating a fresh conda environment. 
+Recommend creating a fresh conda environment. Something.
 ```
 conda activate orTools_env
 conda install python 
